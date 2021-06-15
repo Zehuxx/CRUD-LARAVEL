@@ -1,0 +1,68 @@
+/*ESTILOS GENERALES*/
+.toolbar {
+	display: inline-block;
+}
+
+.datepicker {
+   transform: translate(0, 3.4em);
+   z-index: 1060 !important;
+}
+
+.brand-text{
+	color:#1c2458 !important;
+	font-family: 'Roboto Condensed', sans-serif !important;
+	opacity: 1 !important;
+	font-weight: 900 !important;
+}
+
+.brand-image{
+	opacity: 1 !important;
+}
+
+/*ESTILOS USER*/
+
+#tableVacantes tbody tr {
+	cursor: pointer;
+}
+
+#modal-vacantes-user .modal-body div.note-editor{
+	border: none !important;
+}
+
+#modal-vacantes-user .modal-body div.card div.note-editable{
+	background-color: #ffffff !important;
+}
+
+#modal-vacantes-user .modal-body div.card{
+	box-shadow: none !important;
+}
+
+#tableVacantes tbody tr.selected {
+    background-color: #007bffa6 !important;
+}
+
+/*ESTILOS ADMIN*/
+#modal-vacantes-admin .modal-body div.note-editor{
+	border: none !important;
+}
+
+#modal-vacantes-admin .modal-body div.card div.note-editable{
+	background-color: #ffffff !important;
+}
+
+#modal-vacantes-admin .modal-body div.card{
+	box-shadow: none !important;
+}
+
+#tableVacantesAdmin tbody tr {
+	cursor: pointer;
+}
+
+#tableVacantesAdmin tbody tr.selected {
+    background-color: #007bffa6 !important;
+}
+
+
+
+/*ESTILOS DEPARMENTHEADER*/
+
